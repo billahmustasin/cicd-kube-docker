@@ -4,7 +4,7 @@ pipeline {
 
     environment {
         registry = "billahmustasin/vproappdocker"
-        registryCredential = dockerhub
+        registryCredential = 'dockerhub'
     }
 
     stages{
